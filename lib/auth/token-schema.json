@@ -8,7 +8,7 @@
         "type": "object",
         "additionalProperties": true,
         "required": [
-            "expiresIn", "accessToken", "expiry", "tokenType", "userId", "tenantId", "permissions"
+            "expiresIn", "expiry", "tokenType", "userId", "tenantId", "permissions"
         ],
         "properties": {
           "expiresIn": {
