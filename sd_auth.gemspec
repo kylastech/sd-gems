@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = %q{sd_auth}
-  s.version = "1.0.6"
-  s.date = %q{2021-11-24}
+  s.version = "1.0.7"
+  s.date = %q{2025-12-16}
   s.summary = %q{sd_auth provides authentication for ruby services}
   s.files = Dir["lib/**/*"]
   s.require_paths = ["lib"]
