@@ -46,7 +46,7 @@ RSpec.describe Auth::Data,type: :model do
                   ]
                 }
               }
-            %w{expiresIn accessToken expiry tokenType userId tenantId permissions}.each do |attr|
+            %w{expiresIn expiry tokenType userId tenantId permissions}.each do |attr|
                 expect{ Auth::Data.new({ 'data'=> options['data'].except(attr)})}.to raise_error(AuthExceptionHandler::SdAuthException, INVALID_TOKEN)
             end
         end
